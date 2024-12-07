@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background: white;
+    padding: 20px 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #202124;
+}
+
+p {
+    font-size: 14px;
+    color: #5f6368;
+    margin: 10px 0;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4285f4;
+}
+
+.btn {
+    width: 100%;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #357ae8;
+}
+
+.forgot-email {
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.forgot-email a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-email a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.create-account a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
